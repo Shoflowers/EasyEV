@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFCF8A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/battery"
+        android:layout_width="356dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="batteryOptions"
+        android:text="Battery"
+        app:layout_constraintBottom_toTopOf="@+id/trip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <Button
+        android:id="@+id/trip"
+        android:layout_width="350"
+        android:layout_height="100"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Plan a Trip"
+        android:onClick="tripOptions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/resources"
+        android:layout_width="350"
+        android:layout_height="100"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Resources"
+        android:onClick="resourceOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trip"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="250"
+        android:layout_height="50"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/lobster_two"
+        android:lineSpacingExtra="10sp"
+        android:text="EV Made Easy"
+        android:textAlignment="center"
+        android:textColor="#EAEAF3"
+        android:textSize="37"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/battery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+</androidx.constraintlayout.widget.ConstraintLayout>

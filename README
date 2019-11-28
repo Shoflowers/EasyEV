@@ -1,0 +1,25 @@
+EASY EV -- README
+
+==What is the project?==
+Easy EV is a prototype Android Application for Electrical Vehicle (EV) owners. The App was designed to be a EV charger Digital Companion app for a home charging station with this persona in mind. The project was an exercise in user research, interface design, Android mobile development, and programming implementation. The app was built in Android Studio, utilizing Java and XML.
+
+
+==What does it do?==
+The app possesses three main functionalities:
+	1. Charge; allow users to charge their car immediately, or schedule a charge for a future time period. After surveying a number of users, I found that many of them preferred to charge their vehicles at "odd" hours to avoid the higher cost of electricity during the day. The scheduling feature was implemented to absolve this issue.
+	2. Trip Planner; give users the option to calculate their mile expenditure for an upcoing trip. Inputting a trip will recalculate the vehicle's battery level. It'll also alert you if your vehicle is unable to make the trip.
+	3. Resources; a page dedicated to various resources for EV users. It's essentially collection of links to the Department of Energy's page on EV, frequently asked questions, and the reddit community of EV owners.
+
+
+==How to run the project==
+Pull the project into a local repository. You will need Android Studio to open and run the application. If you do not yet have Android Studio installed, then you can download the package from the following link:	https://developer.android.com/studio
+
+Once in the app, the homepage will have 3 buttons: Battery, Plan A Trip, and Resources. 
+	Battery will lead you to a new page where you may choose to charge your vehicle, or schedule a charge.
+	Plan a Trip will lead you to a new page where you may calculate your car's battery based on an upcoming trip.
+	Resources will lead you to a new page where you will be directed to external links on various EV pages.
+
+==Contributors==
+Shoaib Rasooli, student at UC Berkeley studying Computer Science and Rhetoric. 
+Github: Shoflowers
+Twitter: Shoflowers
